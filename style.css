@@ -1,0 +1,88 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; /* Apply the new font globally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('your-wallpaper.jpg'); /* Add wallpaper */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #ffffff; /* Sets the text color to white for contrast against the dark theme */
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with slight transparency */
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all components inside the box */
+    color: #ffffff; /* Ensures text within the box is white */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; /* Center the title text */
+}
+
+.form-group {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center; /* Center the form content */
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333; /* Darker background for input fields */
+    color: #fff; /* White text for input fields */
+    font-family: inherit; /* Inherit the global font */
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center; /* Center button alignment */
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit; /* Inherit the global font */
+    margin: 5px; /* Adds space between buttons */
+}
+
+.btn-primary {
+    background-color: #4a90e2; /* Light blue color for primary button */
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #27ae60; /* Green color for success button */
+    color: #fff;
+}
+
+.bill-output {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center; /* Center the bill output content */
+}
+
+.bill-output h2 {
+    margin-top: 0;
+    text-align: center; /* Center the subheading */
+}
